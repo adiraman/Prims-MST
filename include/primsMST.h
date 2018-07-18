@@ -1,12 +1,11 @@
 #ifndef PRIMS_MST_H
 #define PRIMS_MST_H
 
-#include "../include/directed_weighted_graph.h"
 #include "../include/heap.h"
 #include "../include/undirected_weighted_graph.h"
 
 /*
- * Implementation of the Dijkstra's shortest path algorithm
+ * Implementation of Prims Minimum Spanning Tree Algorithm
  */
 class primsMST
 {
